@@ -1,0 +1,7 @@
+##usado pra sobrescrever as configs do docker-compose
+version: '3'
+
+services:
+  app:
+    environment:
+      - DB_NAME=email_sender
